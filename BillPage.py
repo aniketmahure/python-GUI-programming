@@ -9,6 +9,7 @@ mydb2 = mysql.connector.connect(host="localhost", user="root", password="", data
 root2 = Tk()
 
 qnt = IntVar()
+qnt = Intvar()
 s = StringVar()
 Entry1 = StringVar()
 Entry2 = StringVar()
