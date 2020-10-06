@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-
+tk.root
 data = StringVar()
 qnt = IntVar()
 
