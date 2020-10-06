@@ -9,6 +9,7 @@ mydb2 = mysql.connector.connect(host="localhost", user="root", password="", data
 root2 = Tk()
 
 qnt = IntVar()
+qnt = IntVar()
 qnt = Intvar()
 s = StringVar()
 Entry1 = StringVar()
@@ -27,7 +28,7 @@ class ShopP:
 
         self.label1 = Label(self.frame, text="A's Supermarket", font="Consolas 40 bold", bg="#a64dff")
         self.label1.place(x=550, y=60)
-
+qnt = IntVar()
         self.frame2 = Frame(self.frame, bg="#9933ff")
         self.frame2.place(x=0, y=190)
         self.button1 = Button(self.frame2, font="0 15", text="Home", command=ref, bg="#a64dff")
